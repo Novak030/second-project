@@ -52,7 +52,7 @@ h1 {
     opacity: .5;
 }
 
-/*Questions*/
+/* Main-Question*/
 
 #idQuestion{
     display: flex;
@@ -60,4 +60,49 @@ h1 {
     justify-content: center;
     font-size: 40px;
     margin: 5%;
+}
+
+/*Answer Choices*/
+.classAnswers{
+    background: #FF4742;
+        border: 1px solid #FF4742;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Shadows Into Light', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 16px;
+        min-height: 40px;
+        outline: 0;
+        padding: 12px 14px;
+        text-align: center;
+        text-rendering: geometricprecision;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        margin: 1%;
+}
+.classAnswers:hover,
+.classAnswers:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.classAnswers:active {
+    opacity: .5;
+}
+
+
+/* Div Choices*/
+#idQuestions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
