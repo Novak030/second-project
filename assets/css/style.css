@@ -1,7 +1,63 @@
-/*font-family buttons and header: 'Shadows Into Light',cursive; 
-font-family questions: 'Vina Sans',sans-serif; */
+/*font-family Shadows Into Light', */
 
+/* Main */
 body {
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light', sans-serif;
+    background-image: url(../images/sun-pattern.webp);
  
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #FF4742;
+}
+
+/*Quiz Start Button from getcssscan.com with my adjustments */
+
+#idStart {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 5% auto;
+}
+
+#idStart:hover,
+#idStart:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+#idStart:active {
+    opacity: .5;
+}
+
+/*Questions*/
+
+#idQuestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 5%;
 }
