@@ -11,6 +11,9 @@ h1 {
     text-align: center;
     font-size: 100px;
     color: #FF4742;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 /*Quiz Start Button from getcssscan.com with my adjustments */
@@ -86,7 +89,7 @@ h1 {
         -webkit-user-select: none;
         touch-action: manipulation;
         vertical-align: middle;
-        margin: 1%;
+        margin: 1.5%;
 }
 .classAnswers:hover,
 .classAnswers:active {
@@ -100,7 +103,7 @@ h1 {
 }
 
 
-/* Div Choices*/
+/* Div Choices to Center and align under main question*/
 #idQuestions {
         display: flex;
         align-items: center;
