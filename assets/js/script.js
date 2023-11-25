@@ -44,5 +44,8 @@ function startTurn() {
 function pressButton(pressedButton) {
     if (pressedButton.innerHTML == correctAnswer) {
         points++;
+        pressedButton.style.background = "green";
+    } else {
+        pressedButton.style.background = "red";
     }
 }
