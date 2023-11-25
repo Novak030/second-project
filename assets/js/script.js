@@ -30,7 +30,12 @@ function createQuestions() {
 //Function how Game works and check answer
 function startTurn() {
     if (countTurns < numberTurns) {
-        countTurns++;
+        
+        document.getElementById("idAnswer1").style.background = "black";
+        document.getElementById("idAnswer2").style.background = "black";
+        document.getElementById("idAnswer3").style.background = "black";
+
+    countTurns++;
     blocked = false;
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
