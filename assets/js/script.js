@@ -2,6 +2,7 @@
 let points;
 let numberTurns;
 let countTurns;
+const arrayQuestions = [];
 
 
 //Function to start quiz
