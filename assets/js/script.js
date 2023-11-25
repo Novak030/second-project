@@ -11,7 +11,8 @@ function startQuiz() {
     points = 0;
     numberTurns = 5;
     countTurns = 0;
-
+    createQuestions();
+    startTurn();
 
 }
 
