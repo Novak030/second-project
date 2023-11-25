@@ -29,6 +29,7 @@ function createQuestions() {
 
 //Function how Game works and check answer
 function startTurn() {
+    blocked = false;
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
     correctAnswer = arrayQuestionsProcessed[4];
@@ -42,6 +43,10 @@ function startTurn() {
 //Function to Block possible answers after choosing 
 
 function pressButton(pressedButton) {
+    if (blocked == true) {
+        return;
+    }
+    blocked = true;
     if (pressedButton.innerHTML == correctAnswer) {
         points++;
         pressedButton.style.background = "green";
