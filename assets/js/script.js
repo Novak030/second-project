@@ -27,7 +27,7 @@ function createQuestions() {
 
 }
 
-//Function how Game works 
+//Function how Game works and check answer
 function startTurn() {
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
@@ -37,4 +37,12 @@ function startTurn() {
     document.getElementById("idAnswer1").innerHTML = arrayQuestionsProcessed[1];
     document.getElementById("idAnswer2").innerHTML = arrayQuestionsProcessed[2];
     document.getElementById("idAnswer3").innerHTML = arrayQuestionsProcessed[3];
+}
+
+//Function to Block possible answers after choosing 
+
+function pressButton(pressedButton) {
+    if (pressedButton.innerHTML == correctAnswer) {
+        points++;
+    }
 }
