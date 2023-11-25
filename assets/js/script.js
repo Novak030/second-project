@@ -29,4 +29,9 @@ function createQuestions() {
 function startTurn() {
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
+    
+    document.getElementById("idQuestion").innerHTML = arrayQuestionsProcessed[0];
+    document.getElementById("idAnswer1").innerHTML = arrayQuestionsProcessed[1];
+    document.getElementById("idAnswer2").innerHTML = arrayQuestionsProcessed[2];
+    document.getElementById("idAnswer3").innerHTML = arrayQuestionsProcessed[3];
 }
