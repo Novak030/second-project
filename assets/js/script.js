@@ -42,6 +42,9 @@ function startTurn() {
     document.getElementById("idAnswer3").innerHTML = arrayQuestionsProcessed[3];
         setTimeout(startTurn, 5000);
     }
+    else{
+        document.getElementById("idQuestion").innerHTML = "Game Over. You have " + points + " Points!";
+    }
 }
 
 //Function to Block possible answers after choosing 
