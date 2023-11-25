@@ -61,8 +61,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 35px;
     margin: 5%;
+    text-align: center;
 }
 
 /*Answer Choices*/
@@ -76,12 +77,13 @@ h1 {
         cursor: pointer;
         display: inline-block;
         font-family: 'Shadows Into Light', sans-serif;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 800;
         line-height: 16px;
         min-height: 40px;
+        min-width: 80px;
         outline: 0;
-        padding: 12px 14px;
+        padding: 12px 5px;
         text-align: center;
         text-rendering: geometricprecision;
         text-transform: none;
