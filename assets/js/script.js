@@ -6,11 +6,10 @@ const arrayQuestions = [];
 let correctAnswer;
 let blocked;
 
-//Hide Answer buttons and Start Game buttons
+//Hide Answer buttons 
 document.getElementById("idAnswer1").style.visibility = "hidden";
 document.getElementById("idAnswer2").style.visibility = "hidden";
 document.getElementById("idAnswer3").style.visibility = "hidden";
-document.getElementById("idQuestion").style.visibility = "hidden";
 
 
 //Function to start quiz
@@ -18,6 +17,12 @@ function startQuiz() {
     points = 0;
     numberTurns = 5;
     countTurns = 0;
+    //make buttons visible /hidden
+    document.getElementById("idAnswer1").style.visibility = "visible";
+    document.getElementById("idAnswer2").style.visibility = "visible";
+    document.getElementById("idAnswer3").style.visibility = "visible";
+    document.getElementById("idStart").style.visibility = "hidden";
+    
     createQuestions();
     startTurn();
 
@@ -56,7 +61,11 @@ function startTurn() {
         setTimeout(startTurn, 5000);
     }
     else{
-        document.getElementById("idQuestion").innerHTML = "Game Over. You have " + points + " Points!";
+    document.getElementById("idQuestion").innerHTML = "Game Over. You have " + points + " Points!";
+        document.getElementById("idStart").style.visibility = "visible";
+        document.getElementById("idAnswer1").style.visibility = "hidden";
+        document.getElementById("idAnswer2").style.visibility = "hidden";
+        document.getElementById("idAnswer3").style.visibility = "hidden";
     }
 }
 
