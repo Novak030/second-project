@@ -29,6 +29,8 @@ function createQuestions() {
 
 //Function how Game works and check answer
 function startTurn() {
+    if (countTurns < numberTurns) {
+        countTurns++;
     blocked = false;
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
@@ -38,12 +40,14 @@ function startTurn() {
     document.getElementById("idAnswer1").innerHTML = arrayQuestionsProcessed[1];
     document.getElementById("idAnswer2").innerHTML = arrayQuestionsProcessed[2];
     document.getElementById("idAnswer3").innerHTML = arrayQuestionsProcessed[3];
+        setTimeout(startTurn, 5000);
+    }
 }
 
 //Function to Block possible answers after choosing 
 
 function pressButton(pressedButton) {
-    if (blocked == true) {
+    if (blocked == true){
         return;
     }
     blocked = true;
