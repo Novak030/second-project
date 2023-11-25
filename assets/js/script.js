@@ -58,7 +58,7 @@ function startTurn() {
     document.getElementById("idAnswer1").innerHTML = arrayQuestionsProcessed[1];
     document.getElementById("idAnswer2").innerHTML = arrayQuestionsProcessed[2];
     document.getElementById("idAnswer3").innerHTML = arrayQuestionsProcessed[3];
-        setTimeout(startTurn, 5000);
+        setTimeout(startTurn, 8000);
     }
     else{
     document.getElementById("idQuestion").innerHTML = "Game Over. You have " + points + " Points!";
