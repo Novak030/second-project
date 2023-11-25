@@ -3,6 +3,7 @@ let points;
 let numberTurns;
 let countTurns;
 const arrayQuestions = [];
+let correctAnswer;
 
 
 //Function to start quiz
@@ -30,6 +31,7 @@ function createQuestions() {
 function startTurn() {
     let currQuestion = arrayQuestions.shift();
     const arrayQuestionsProcessed = currQuestion.split("#");
+    correctAnswer = arrayQuestionsProcessed[4];
     
     document.getElementById("idQuestion").innerHTML = arrayQuestionsProcessed[0];
     document.getElementById("idAnswer1").innerHTML = arrayQuestionsProcessed[1];
