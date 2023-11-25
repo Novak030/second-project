@@ -4,6 +4,13 @@ let numberTurns;
 let countTurns;
 const arrayQuestions = [];
 let correctAnswer;
+let blocked;
+
+//Hide Answer buttons and Start Game buttons
+document.getElementById("idAnswer1").style.visibility = "hidden";
+document.getElementById("idAnswer2").style.visibility = "hidden";
+document.getElementById("idAnswer3").style.visibility = "hidden";
+document.getElementById("idQuestion").style.visibility = "hidden";
 
 
 //Function to start quiz
