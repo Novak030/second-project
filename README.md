@@ -40,4 +40,4 @@ On my Quiz website you can test your knowledge by answering 5 questions.
 
 - __Question Area__
 
-  - The question area will only showcase the current question for a brief 8-second window. If you miss this window and fail to respond, the input opportunity will unfortunately close.
+  - The question area will only showcase the current question for a brief 8-second window. If you miss this window and fail to respond, the input opportunity will unfortunately close. 
