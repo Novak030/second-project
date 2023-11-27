@@ -20,7 +20,7 @@ On my Quiz website you can test your knowledge by answering 5 questions.
 
 - __Start Quiz Button__
   
-  - When the Button is clicked it hides during the Quiz  and comes back when the game is finished, so you can restart the Quiz.
+  - When the button is clicked, it discreetly disappears during the quiz, reappearing once the game concludes. This allows you to seamlessly restart the quiz for another round.
 
 ![landing image](https://novak030.github.io/second-project//documentation/landing.png)
 
@@ -35,7 +35,6 @@ On my Quiz website you can test your knowledge by answering 5 questions.
   - The question area will gradually display your score, incrementally revealing the number of questions you answered correctly once you've completed it.
 
 ![Quiz over image](https://novak030.github.io/second-project//documentation/over.png)
-
 
 
 - __Answer Buttons__
