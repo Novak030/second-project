@@ -74,8 +74,8 @@ I also tested the Website with lighthouse.
 ![Lighthouse Desktop image](https://novak030.github.io/second-project//documentation/desktoplighthouse.png)
 
 - Mobile Test
+ 
 ![Lighthouse Mobile image](https://novak030.github.io/second-project//documentation/mobilelighthouse.png)
-
 
 ## Deployment
 
@@ -86,12 +86,9 @@ I also tested the Website with lighthouse.
 
 [View The Quiz on Github Pages](https://github.com/Novak030/second-project)
 
-
-
 ### Media
 
 - The Background-Image used on the website is free to use from [Freepik](https://www.freepik.com/)
   
 - The font "Shadows Into Light" is taken from 
  [Google Fonts](https://fonts.google.com/)
-
