@@ -24,11 +24,25 @@ On my Quiz website you can test your knowledge by answering 5 questions.
 
 ![landing image](https://novak030.github.io/second-project//documentation/landing.png)
 
+- __Question Area__
+
+  - The question area will only showcase the current question for a brief 8-second window. If you miss this window and fail to respond, the next question is displayed.
+
+![landing image](https://novak030.github.io/second-project//documentation/question.png)
+
+- __Score in Question Area__
+
+  - The question area will gradually display your score, incrementally revealing the number of questions you answered correctly once you've completed it.
+
+![landing image](https://novak030.github.io/second-project//documentation/over.png)
+
+
+
 - __Answer Buttons__
   
   - The color of the answer buttons shifts to green when the answer is accurate, and it transitions to red when the answer is incorrect.
   
-  - After entering an input, the other buttons become unresponsive.
+  - After entering an input, the other 2 buttons become unresponsive.
   
 
 ![landing image](https://novak030.github.io/second-project//documentation/correct.png)
@@ -36,8 +50,3 @@ On my Quiz website you can test your knowledge by answering 5 questions.
 
 
 ![landing image](https://novak030.github.io/second-project//documentation/wrong.png)
-
-
-- __Question Area__
-
-  - The question area will only showcase the current question for a brief 8-second window. If you miss this window and fail to respond, the input opportunity will unfortunately close. 
